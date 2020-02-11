@@ -16,6 +16,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    padding: 0;
+    margin: 0;
   }
   .section-2{
   /* The image used */
@@ -29,11 +31,19 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 0;
+  margin: 0;
+  position: relative;
 }
 h2{
     color: #6bc1a3;
     font-size: 25px;
-    padding-top: 100px;
+    padding: 0;
+    margin: 0;
+    left: 100px;
+    top: 300px;
+    right: 600px;
+    position: absolute;
 }
 h1{
     color: white;
@@ -42,3 +52,30 @@ h1{
     left: 100px;
     font-size: 52px;
 }
+.section-3{
+    /* The image used */
+    background-image: url(../img/cleo-topper.jpg);
+  
+    /* Set a specific height */
+    height: 100vh;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    position: relative;
+  }
+  .number1{
+      color: #cb91b6;
+      font-size: 25px;
+      padding: 0;
+      margin: 0;
+      left: 100px;
+      top: 300px;
+      right: 600px;
+      position: absolute;
+
+  }
