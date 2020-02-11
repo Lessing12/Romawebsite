@@ -4,6 +4,37 @@ body{
     font-family: 'Roboto', sans-serif;
 
 }
+header{
+    background-image: url(../img/cleo-topper.jpg);
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 5px;
+        /* The image used */
+        background-image: url(../img/cleo-topper.jpg);
+  
+       
+     
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        padding: 0;
+        margin: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+h3{  
+    margin: 0;
+    padding: 0;
+
+}
 
 .section-1{
     /* The image used */
@@ -70,6 +101,12 @@ h1{
     padding: 0;
     margin: 0;
     position: relative;
+   
+  }
+  .worker{
+      height: 100px;
+      width: 100px;
+object-fit: cover;
   }
   .number1{
       color: #e7bc0e;
@@ -189,6 +226,9 @@ h1{
   }
   .a{
       color: white;
+      position: absolute;
+      display: block;
+      top: 400px;
   }
   .info{
       color: #7eb8e1 ;
