@@ -69,7 +69,7 @@ h1{
     position: relative;
   }
   .number1{
-      color: #cb91b6;
+      color: #e7bc0e;
       font-size: 25px;
       padding: 0;
       margin: 0;
@@ -78,4 +78,112 @@ h1{
       right: 600px;
       position: absolute;
 
+  }
+  .number2{
+    color: #cb91b6;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    left: 100px;
+    top: 300px;
+    right: 600px;
+    position: absolute;
+
+}
+.number3{
+    color: #6bc1a3;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    left: 100px;
+    top: 300px;
+    right: 600px;
+    position: absolute;
+
+}
+.info{
+    color: 7eb8e1;
+}
+.section-4{
+    /* The image used */
+    background-image: url(../img/cleo-topper.jpg);
+  
+    /* Set a specific height */
+    height: 100vh;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    position: relative;
+  }
+  .section-5{
+    /* The image used */
+    background-image: url(../img/cleo-topper.jpg);
+  
+    /* Set a specific height */
+    height: 100vh;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    position: relative;
+  }
+  .section-6{
+    /* The image used */
+    background-image: url(../img/cleo-topper.jpg);
+  
+    /* Set a specific height */
+    height: 100vh;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    position: relative;
+  }
+  .section-7{
+    /* The image used */
+    background-image: url(../img/kid.png);
+  
+    /* Set a specific height */
+    height: 100vh;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    position: relative;
+  }
+  .section-8{
+    /* The image used */
+    background-color: black;
+  
+    /* Set a specific height */
+    height: 100vh;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    position: relative;
+  }
+  .a{
+      color: white;
   }
