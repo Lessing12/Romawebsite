@@ -50,6 +50,7 @@ h3{
     background-size: cover;
     position: relative;
     padding: 0;
+    padding-left: 0;
     margin: 0;
   }
   .section-2{
@@ -75,7 +76,7 @@ h2{
     margin: 0;
     left: 250px;
     top: 350px;
-    right: 500px;
+    right: 200px;
     position: absolute;
     display: block;
 }
@@ -83,7 +84,7 @@ h1{
     color: white;
     position: absolute;
     top: 300px;
-    left: 100px;
+    left: 200px;
     font-size: 52px;
 }
 .section-3{
@@ -108,23 +109,23 @@ h1{
     width: 220px;
     object-fit: cover;
     position: absolute;
-    padding-left: 90px;
-    padding-top: 80px;
+    padding-left: 250px;
+    padding-top: 250px;
   }
   .number1{
       color: #e7bc0e;
       font-size: 38px;
       padding: 0;
       margin: 0;
-      left: 100px;
-      top: 320px;
-      right: 600px;
+      left: 250px;
+      top: 500px;
+      right: 400px;
       position: absolute;
 
   }
 
   .bignum{
-      font-size: 140px;
+      font-size: 150px;
   }
   .smallnum{
       color: white;
@@ -133,26 +134,43 @@ h1{
 
   .number2{
     color: #cb91b6;
-    font-size: 25px;
+    font-size: 38px;
     padding: 0;
     margin: 0;
-    left: 100px;
-    top: 300px;
+    left: 250px;
+    top: 500px;
     right: 600px;
     position: absolute;
 
 }
+
+.bignum2{
+    font-size: 150px;
+}
+.smallnum2{
+    color: white;
+}
+
 .number3{
     color: #6bc1a3;
-    font-size: 25px;
+    font-size: 38px;
     padding: 0;
     margin: 0;
-    left: 100px;
-    top: 300px;
+    left: 250px;
+    top: 500px;
     right: 600px;
     position: absolute;
 
 }
+.bignum3{
+    font-size: 150px;
+}
+.smallnum3{
+    color: white;
+    
+}
+
+
 .info{
     color: 7eb8e1;
 }
@@ -243,5 +261,7 @@ h1{
       top: 400px;
   }
   .info{
-      color: #7eb8e1 ;
+      color: #7eb8e1;
+      padding-left: 300px;
+      padding-right: 0px;
   }
