@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-
+    scroll-behavior: smooth;
 }
 header{
     background-image: url(../img/cleo-topper.jpg);
@@ -13,10 +13,6 @@ header{
     padding-top: 5px;
         /* The image used */
         background-image: url(../img/cleo-topper.jpg);
-  
-       
-     
-      
         /* Create the parallax scrolling effect */
         background-attachment: fixed;
         background-position: center;
@@ -33,32 +29,13 @@ p{
 h3{  
     margin: 0;
     padding: 0;
-
 }
-
-.section-1{
-    /* The image used */
-    background-image: url(../img/cleo-topper.jpg);
-  
-    /* Set a specific height */
-    height: 100vh;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    padding: 0;
-    padding-left: 0;
-    margin: 0;
-  }
-  .section-2{
+  .section-1, .section-2, .section-3, .section-4, .section-5, .section-6{
   /* The image used */
   background-image: url(../img/cleo-topper.jpg);
 
   /* Set a specific height */
-  height: 100vh;
+  height: 140vh;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -71,12 +48,12 @@ h3{
 }
 h2{
     color: #6bc1a3;
-    font-size: 30px;
+    font-size: 35px;
     padding: 0;
     margin: 0;
     left: 250px;
     top: 350px;
-    right: 200px;
+    right: 240px;
     position: absolute;
     display: block;
 }
@@ -87,23 +64,6 @@ h1{
     left: 200px;
     font-size: 52px;
 }
-.section-3{
-    /* The image used */
-    background-image: url(../img/cleo-topper.jpg);
-  
-    /* Set a specific height */
-    height: 100vh;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 0;
-    margin: 0;
-    position: relative;
-   
-  }
   .worker{
     height: 220px;
     width: 220px;
@@ -121,17 +81,13 @@ h1{
       top: 500px;
       right: 400px;
       position: absolute;
-
   }
-
   .bignum{
       font-size: 150px;
   }
   .smallnum{
       color: white;
   }
-
-
   .number2{
     color: #cb91b6;
     font-size: 38px;
@@ -141,16 +97,7 @@ h1{
     top: 500px;
     right: 600px;
     position: absolute;
-
 }
-
-.bignum2{
-    font-size: 150px;
-}
-.smallnum2{
-    color: white;
-}
-
 .number3{
     color: #6bc1a3;
     font-size: 38px;
@@ -160,90 +107,35 @@ h1{
     top: 500px;
     right: 600px;
     position: absolute;
-
 }
-.bignum3{
-    font-size: 150px;
-}
-.smallnum3{
-    color: white;
-    
-}
-
 
 .info{
     color: 7eb8e1;
 }
-.section-4{
-    /* The image used */
-    background-image: url(../img/cleo-topper.jpg);
+
+.section-7{
+     /* The image used */
+     background: url(../img/kid.png);
   
-    /* Set a specific height */
-    height: 100vh;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 0;
-    margin: 0;
-    position: relative;
-  }
-  .section-5{
-    /* The image used */
-    background-image: url(../img/cleo-topper.jpg);
-  
-    /* Set a specific height */
-    height: 100vh;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 0;
-    margin: 0;
-    position: relative;
-  }
-  .section-6{
-    /* The image used */
-    background-image: url(../img/cleo-topper.jpg);
-  
-    /* Set a specific height */
-    height: 100vh;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 0;
-    margin: 0;
-    position: relative;
-  }
-  .section-7{
-    /* The image used */
-    background-image: url(../img/kid.png);
-  
-    /* Set a specific height */
-    height: 100vh;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 0;
-    margin: 0;
-    position: relative;
-  }
+     /* Set a specific height */
+     height: 150vh;
+   
+     /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 0;
+     margin: 0;
+     position: relative;
+}
+
   .section-8{
     /* The image used */
     background-color: black;
   
     /* Set a specific height */
-    height: 100vh;
+    height: 150vh;
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -254,14 +146,31 @@ h1{
     margin: 0;
     position: relative;
   }
-  .a{
+  a{
       color: white;
       position: absolute;
-      display: block;
-      top: 400px;
+      display: inline;
+      top: 700px;
+      margin-left: 200px;
+      border: 2px solid white;
+      padding: 25px;
+      scroll-behavior: smooth;
+
   }
   .info{
       color: #7eb8e1;
       padding-left: 300px;
       padding-right: 0px;
   }
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    display: inline;
+}
+.end{
+    color: #6bc1a3;
+}
+.white{
+    color: white;
+}
