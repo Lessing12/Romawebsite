@@ -166,11 +166,14 @@ footer{
     text-align: center;
     background-color: black;
     color: white;
-    display: inline;
+    display: block;
 }
 .end{
     color: #6bc1a3;
 }
 .white{
+    color: white;
+}
+.bottom{
     color: white;
 }
