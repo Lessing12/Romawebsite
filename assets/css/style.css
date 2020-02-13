@@ -22,10 +22,15 @@ header{
         padding: 0;
         margin: 0;
 }
-p{
-    margin: 0;
-    padding: 0;
+.scroll{
+    color: #e7bc0e;
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 38px;
+    padding-left: 200px;
+    padding-top: 680px;
+    position: absolute;
 }
+
 h3{  
     margin: 0;
     padding: 0;
@@ -51,7 +56,7 @@ h2{
     font-size: 35px;
     padding: 0;
     margin: 0;
-    left: 250px;
+    left: 350px;
     top: 350px;
     right: 240px;
     position: absolute;
@@ -182,6 +187,7 @@ h4{
     color: white;
     padding: 0;
     margin: 0;
+    display: inline-block;
 
 }
 .link{
