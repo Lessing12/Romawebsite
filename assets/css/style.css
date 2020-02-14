@@ -4,6 +4,10 @@ body{
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
 }
+@font-face{
+    font-family: 'Santio Bold';
+    src: url(../fonts/SantioBold.otf);
+}
 header{
     background-image: url(../img/cleo-topper.jpg);
     margin: 0;
@@ -66,20 +70,15 @@ h1{
     left: 200px;
     font-size: 52px;
 }
-
 h3{  
     margin: 0;
     padding: 30px;
     padding-top: 30px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Santio Bold';
     display: inline-block;
     margin-top: 25px;
     text-decoration: underline #e7bc0e;
-
 }
-
-
-
   .worker{
     height: 220px;
     width: 220px;
@@ -124,17 +123,9 @@ h3{
     right: 600px;
     position: absolute;
 }
-
-
-
 .section-7{
-     /* The image used */
      background: url(../img/kid.png);
-  
-     /* Set a specific height */
      height: 150vh;
-   
-     /* Create the parallax scrolling effect */
      background-attachment: fixed;
      background-position: center;
      background-repeat: no-repeat;
@@ -168,20 +159,16 @@ h3{
       margin-left: 200px;
       border: 2px solid white;
       padding: 25px;
-      scroll-behavior: smooth;
-      transition: box-shadow .3s;
+
   }
   .donate:hover {
     text-shadow: 1px 1px white; 
   }
-
   .info{
       color: #7eb8e1;
       padding-left: 300px;
       padding-right: 0px;
   }
-  
-
 footer{
     text-align: center;
     background-color: black;
@@ -189,8 +176,6 @@ footer{
     margin: 0;
     display: block;
 }
-
-
 .bottom{
     color: white;
 }
@@ -199,9 +184,7 @@ h4{
     padding: 0;
     margin: 0;
     display: inline-block;
-
 }
 .link{
     color: #6bc1a3;
-    
 }
