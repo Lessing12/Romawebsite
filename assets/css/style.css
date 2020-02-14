@@ -70,7 +70,7 @@ h1{
     left: 200px;
     font-size: 52px;
 }
-h3{  
+.head{  
     margin: 0;
     padding: 30px;
     padding-top: 30px;
@@ -78,6 +78,7 @@ h3{
     display: inline-block;
     margin-top: 25px;
     text-decoration: underline #e7bc0e;
+    color: black;
 }
   .worker{
     height: 300px;
