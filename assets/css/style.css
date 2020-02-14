@@ -26,13 +26,13 @@ header{
     padding-top: 680px;
     position: absolute;
 }
-
-h3{  
-    margin: 0;
-    padding: 30px;
-    font-family: a;
+.herz{
+    width: 20px;
+    vertical-align: -5px;
+    
 }
-  .section-1, .section-2, .section-3, .section-4, .section-5, .section-6{
+
+  .section-1{
   /* The image used */
   background-image: url(../img/cleo-topper.jpg);
 
@@ -67,20 +67,18 @@ h1{
     font-size: 52px;
 }
 
-h3{
-    margin-top: 0;
-}
-
-h3::before{
-    margin-top: 0;
-    background-image: url(../img/heart\ \(2\).svg);
-    content: "";
-    height: 25px;
-    width: 25px;
+h3{  
+    margin: 0;
+    padding: 30px;
+    padding-top: 30px;
+    font-family: 'Roboto', sans-serif;
     display: inline-block;
-    
+    margin-top: 25px;
+    text-decoration: underline #e7bc0e;
 
 }
+
+
 
   .worker{
     height: 220px;
@@ -171,8 +169,12 @@ h3::before{
       border: 2px solid white;
       padding: 25px;
       scroll-behavior: smooth;
-
+      transition: box-shadow .3s;
   }
+  .donate:hover {
+    text-shadow: 1px 1px white; 
+  }
+
   .info{
       color: #7eb8e1;
       padding-left: 300px;
@@ -188,9 +190,7 @@ footer{
     display: block;
 }
 
-.white{
-    color: white;
-}
+
 .bottom{
     color: white;
 }
